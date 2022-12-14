@@ -12,7 +12,7 @@ public class SpringRestController {
 	/**
 	 * First Rest Controller
 	 * @param param
-	 * @return
+	 * @return String
 	 */
 	@GetMapping("/hello/{param}")
 	public String hello(@PathVariable String param) {
