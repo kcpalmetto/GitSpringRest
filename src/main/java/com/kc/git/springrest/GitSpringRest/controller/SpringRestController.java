@@ -9,7 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/rest")
 public class SpringRestController {
 
-	
+	/**
+	 * First Rest Controller
+	 * @param param
+	 * @return
+	 */
 	@GetMapping("/hello/{param}")
 	public String hello(@PathVariable String param) {
 		
