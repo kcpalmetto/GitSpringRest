@@ -21,7 +21,7 @@ public class SpringRestController {
 	}
 	
 	/**
-	 * third Rest Controller
+	 * Thhird Rest Controller
 	 * @param param
 	 * @return String
 	 */
