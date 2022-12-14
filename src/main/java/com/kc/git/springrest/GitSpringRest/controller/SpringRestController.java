@@ -19,4 +19,15 @@ public class SpringRestController {
 		
 		return "Hello " +param;
 	}
+	
+	/**
+	 * First Rest Controller
+	 * @param param
+	 * @return String
+	 */
+	@GetMapping("/hi/{param}")
+	public String hi(@PathVariable String param1) {
+		
+		return "Hi " +param1;
+	}
 }
